@@ -1,4 +1,4 @@
-# category=[
+# categories=[
 #     {'cid':1,'name':'Laptop'},
 #     {'cid':2,'name':'Mobile'},
 #     {'cid':3,'name':'tv'},
@@ -16,31 +16,104 @@
 #   Dell 50000
 #   HP 60000
 
+# print("1.Laptop")
+# print("2.Mobile")
+# print("3.tv")
 
-users=[
-    {'username':'admin','password':'admin123'},
-    {'username':'ram','password':'ram123'},
-    {'username':'shyam','password':'shyam123'},
+# cid=int(input("enter the category"))
+
+# for category in categories:
+#     if category['cid']==cid:
+#         print(f"{category['name']}")
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# users=[
+#     {'username':'admin','password':'admin123'},
+#     {'username':'ram','password':'ram123'},
+#     {'username':'shyam','password':'shyam123'},
     
-]
-usernameinusers=input("enter username:")
-passwordinusers=input("enter the password")
-found = False
-for user in users:
-    if user['username'] == usernameinusers:
-        found = True
-        if user['password'] == passwordinusers:
-            print("login successful")
-        else:
-            print("invalid password")
-        break
+# ]
+# usernameinusers=input("enter username:")
+# passwordinusers=input("enter the password")
+# found = False
+# for user in users:
+#     if user['username'] == usernameinusers:
+#         found = True
+#         if user['password'] == passwordinusers:
+#             print("login successful")
+#         else:
+#             print("invalid password")
+#         break
 
-if not found:
-    print("invalid username")
-
-
+# if not found:
+#     print("invalid username")
 
 
-    
+# for x in range(7,1,-1):
+#     for y in range(1,x-1):
+#         print("*",end=" ")
+#     print()
 
 
+
+# for x in range(1,6):
+#     for y in range(1,x+1):
+#         print(y,end="")
+#     print()
+
+
+# for x in range(1,8):
+#     for y in range(1,x+1):
+#         if x==6:
+#             print("*moon*")
+#             break
+#         else:
+#             print("*",end="")
+#     print()
+# for x in range(1,8):
+#     for y in range(1,x+1):
+#         if x==6:
+#             print("*sun*")
+#             break
+#         else:
+#             print("*",end="")
+#     print()
+# print("*")
+# print("*")

@@ -46,7 +46,7 @@
 #     print("grade D")
 
 # else:
-    # print("grade NG")
+#     print("grade NG")
 
 # wap to enter a number and check whether it is divisible by 3 and 5
 # a=int(input("enter a number:"))
